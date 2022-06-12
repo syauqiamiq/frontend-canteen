@@ -1,7 +1,8 @@
 import { Button, Grid, Typography } from '@mui/material'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import FormUpdatePromo from '../components/FormUpdatePromo'
+import { FormUpdatePromo } from '../components'
+
 
 const AdminUpdatePromo = () => {
   const router = useRouter()

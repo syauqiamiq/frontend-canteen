@@ -1,6 +1,6 @@
 import { Button, Grid, Typography } from '@mui/material'
 import Link from 'next/link'
-import FormCreateProductCategory from '../components/FormCreateProductCategory'
+import { FormCreateProductCategory } from '../components'
 
 const AdminCreateProductCategory = () => {
   return (

@@ -1,6 +1,6 @@
 import { Button, Grid, Typography } from '@mui/material'
 import Link from 'next/link'
-import FormCreateProduct from '../components/FormCreateProduct'
+import { FormCreateProduct } from '../components'
 
 const AdminCreateProductPage = () => {
   return (

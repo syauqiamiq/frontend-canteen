@@ -1,7 +1,8 @@
 import { Button, Grid, Typography } from '@mui/material'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import FormUpdateProductCategory from '../components/FormUpdateProductCategory'
+import { FormUpdateProductCategory } from '../components'
+
 
 const AdminUpdateProductCategory = () => {
   const router = useRouter()

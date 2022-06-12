@@ -1,6 +1,7 @@
 import { Button, Grid, Typography } from '@mui/material'
 import Link from 'next/link'
-import TableProductCategory from '../components/TableProductCategory'
+import { TableProductCategory } from '../components'
+
 
 const AdminProductCategory = () => {
   return (
